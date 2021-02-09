@@ -14,11 +14,12 @@ h3,
 h4,
 h5,
 h6 {
-margin: 0;
+    margin: 0;
 }
 
 p {
-margin: 0;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 /* This is my navbar */
@@ -30,12 +31,14 @@ margin: 0;
 }
 
 .nav-container > li {
-    padding: 10px;
+    padding: 20px;
     list-style: none;
+    background-color: #fff;
 }
 
 .nav-container a {
-    color: #ffffff;
+    color:#1e1e1e;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -55,17 +58,19 @@ margin: 0;
 }
 
 .card {
-    padding: 10px;
+    padding: 20px;
     flex: 0 0 300px;
 }
 
 .card img {
+    border: 5px solid #fff;
     width: 100%;
 }
 
 .card h1 {
     text-align: center;
     margin-top: 25%;
+    padding-left: 25px;
     font-size: 2rem;
 }
 
@@ -111,16 +116,15 @@ margin: 0;
 }
 
 .flex-item {
-    border: 5px solid var(--secondary);
-    background-color: var(--primary);
-    color: var(--tertiary);
+    border: 5px solid #fff;
+    color: #fff;
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
-    margin: 0.5em;
+    margin: 2px;
     text-decoration: none;
     background-blend-mode: soft-light;
     background-size: 150%;
@@ -139,28 +143,15 @@ margin: 0;
 }
 
 .flex-item div {
-    background-color: var(--secondary);
     padding: 8px 10px;
 }
 
 .flex-item h3 {
     font-size: 1rem;
-}
-
-.horiseon h3 {
-    color: #1e1e1e;
-}
-
-.blog h3 {
-    color: #1e1e1e;
-}
-
-.styling h3 {
-    color: #1e1e1e;
-}
-
-.responsive h3 {
-    color: #1e1e1e;
+    background-color: #1e1e1e;
+    border: 2px solid #fff;
+    padding: 5px;
+    box-shadow: 2px 4px 4px 2px #1e1e1e;
 }
 
 /* This begins my contact section */
@@ -178,15 +169,11 @@ margin: 0;
     }
 
 .contact address a {
-    color: var(--tertiary);
+    color: #fff;
     padding: 5px;
     text-decoration: none;
     font-size: 1.3rem;
     font-style: normal;
-    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: bottom;
     transition: all 0.25s ease-in;
     margin: 0 0.2rem 0.1rem;
     display: inline-block;
@@ -243,6 +230,19 @@ margin: 0;
 }
 
 @media screen and (max-width: 768px) {
+    .nav-container {
+        justify-content: center;
+    }
+
+    .id-card {
+        justify-content: center;
+        margin-left: 0%;
+    }
+
+    .card h1 {
+        font-size: 1.5rem;
+    }
+
     .flex-item,
     .flex-item:first-child {
         flex-basis: 100%;
@@ -250,11 +250,6 @@ margin: 0;
 
     .flex-item:first-child {
         min-height: 150px;
-    }
-
-    .hero-banner {
-        justify-content: center;
-        text-align: center;
     }
 
     .contact address {
