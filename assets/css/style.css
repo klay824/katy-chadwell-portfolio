@@ -1,13 +1,27 @@
 body {
-    background-image: url("https://dl3.pushbulletusercontent.com/cZBHYFT56nLLZIontSXBKhKqi7hbNnBT/background.png");
-    height: 100%;
-    background-position: center;
-    background-repeat:repeat-x;
-    background-size: 100%;
-    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #fff;
+    color: #fff;;
+    background-image: url("https://dl3.pushbulletusercontent.com/cZBHYFT56nLLZIontSXBKhKqi7hbNnBT/background.png");
+    line-height: 1.5;
+    background-attachment: fixed;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+}
+
+p {
+margin: 0;
+}
+
+/* This is my navbar */
 
 .nav-container {
     display: flex;
@@ -27,6 +41,8 @@ body {
 .nav-container a:hover {
     text-decoration: underline;
 }
+
+/* This is my photo and text */
 
 .id-card {
     flex: 4;    
@@ -49,74 +65,199 @@ body {
 .card h1 {
     text-align: center;
     margin-top: 25%;
+    font-size: 2rem;
 }
 
-.about-container {
-    max-width: 960px;
-    margin-left: 12%;
-    margin-top: 5%;
-    margin-right: 10%;
-    line-height: 1.5;
-}
+/* This is my main section */
 
-.about-flex {
+.page-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid;
+  }
+  
+.page-section {
+    margin: 25px 0;
+    padding: 10px 0;
     display: flex;
-    margin: auto -1% 1%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
-.about {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    padding: 1%;
+.page-section > h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    font-size: 2rem;
+    line-height: 1.1;
 }
 
-.sidebar {
-    flex: 1;
+.page-section > div {
+    flex: 0 0 77%;
 }
 
-.main {
-    flex: 3;
+.page-section p {
+    margin-bottom: 20px;
 }
 
-.work-container {
-    max-width: 960px;
-    margin-left: 12%;
-    margin-top: 5%;
-    margin-right: 10%;
-    line-height: 1.5;
-}
-
-.work-flex {
+.flex-container {
     display: flex;
-    margin: auto -1% 1%;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.work {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    padding: 2px;
+.flex-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
 }
 
-.sidebar {
-    flex: 1;
+/* this begins my work section */
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
 }
 
-.main-2 {
-    flex: 3;
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
-.large-card {
-    flex: 3 0 300px;
+.flex-item div {
+    background-color: var(--secondary);
+    padding: 8px 10px;
 }
 
-.small-card {
-    flex: 1 0 100px;
+.flex-item h3 {
+    font-size: 1rem;
 }
 
-.large-card {
-    width: 100%;
+.horiseon h3 {
+    color: #1e1e1e;
 }
 
-.small-card {
-    width: 32.9%;
+.blog h3 {
+    color: #1e1e1e;
+}
+
+.styling h3 {
+    color: #1e1e1e;
+}
+
+.responsive h3 {
+    color: #1e1e1e;
+}
+
+/* This begins my contact section */
+
+.contact {
+    border-top: 4px solid;
+}
+
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    }
+
+.contact address a {
+    color: var(--tertiary);
+    padding: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-style: normal;
+    background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: bottom;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+}
+
+.contact address a:hover {
+    background-size: 100% 88%;
+    text-decoration: underline;
+}
+
+/* portfolio project images */
+.responsive {
+    background-image: url("../images/responsive-web-design.png");
+}
+
+.snippet {
+    background-image: url("../images/css-snippet.png");
+}
+
+.blog {
+    background-image: url("../images/css-blog.png");
+}
+
+.styling {
+    background-image: url("../images/box-styling.png");
+}
+
+.horiseon {
+    background-image: url("../images/horiseon.png");
+}
+
+/* end portfolio project images */
+
+@media screen and (max-width: 980px) {
+    header {
+        padding: 0 0 10px 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .page-section > h2,
+    .page-section > div {
+        flex: 0 0 100%;
+    }
+
+    .page-section > h2 {
+        border-right: none;
+        border-bottom: 4px solid var(--primary);
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flex-item,
+    .flex-item:first-child {
+        flex-basis: 100%;
+    }
+
+    .flex-item:first-child {
+        min-height: 150px;
+    }
+
+    .hero-banner {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact address {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
