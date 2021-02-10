@@ -279,12 +279,12 @@ footer > div {
         font-size: 1.5rem;
     }
 
-    .flex-item,
-    .flex-item:first-child {
+    .flex-box,
+    .flex-box:first-child {
         flex-basis: 100%;
     }
 
-    .flex-item:first-child {
+    .flex-box:first-child {
         min-height: 150px;
     }
 
