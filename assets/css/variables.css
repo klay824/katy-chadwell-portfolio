@@ -1,5 +1,5 @@
 :root {
-    --header-background: #3066b6;
-    --header-text-color: #fdf5e6 ;
-    --page-background: #fff;
+    --dark: #1e1e1e;
+    --light: #f1f1f1;
+    --bg-hover: #0000004d;
 }
