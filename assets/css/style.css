@@ -9,71 +9,26 @@ body {
     background-attachment: fixed;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-}
-
 p {
     margin: 0;
     font-size: 1.5rem;
 }
 
 /* This is my navbar */
-
-.nav-container {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-    margin-right: 4%;
-}
-
-.nav-container > li {
-    padding: 20px;
-    list-style: none;
-    background-color: var(--light);
-}
-
-.nav-container a {
-    color: var(--dark);
+.nav-link, .navbar-brand {
     font-size: 20px;
-    text-decoration: none;
+    color: rgb(233, 233, 233)
 }
 
-.nav-container a:hover {
-    text-decoration: underline;
+.photo-of-me {
+    width: 60%;
+    height: 90%;
 }
 
 /* This is my photo and text */
 
-.id-card {
-    flex: 4;    
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-left: 10%;
-    padding: 20px;
-}
-
-.card {
-    padding: 30px;
-    flex: 0 0 300px;
-}
-
-.card img {
-    border: 5px solid var(--light);
-    width: 100%;
-}
-
-.card h1 {
-    text-align: center;
-    margin-top: 25%;
-    padding-left: 25px;
-    font-size: 2rem;
+header {
+    margin-top: 5%;
 }
 
 /* This is my main section */
@@ -111,49 +66,22 @@ article p {
     margin-bottom: 20px;
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* Changes carousel indicator color */
+.carousel-indicators {
+    filter: invert(100%);
 }
 
-.flex-box {
-    border: 5px solid var(--light);
-    color: var(--light);
-    min-height: 150px;
-    max-height: 150px;
-    flex-basis: calc(50% - 1em);
-    display: flex;
-    align-items: flex-end;
-    padding: 0 0 20px 0;
-    margin: 2px;
-    text-decoration: none;
-    background-blend-mode: soft-light;
-    background-size: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;
+.carousel-control-prev-icon {
+    filter: invert(100%);
 }
 
-/* this begins my work section */
-.flex-box:first-child {
-    min-height: 400px;
-    flex-basis: 100%;
+.carousel-control-next {
+    filter: invert(100%);
 }
 
-.flex-box:hover {
-    background-color: var(--bg-hover);
-}
-
-.flex-box div {
-    padding: 8px 10px;
-}
-
-.flex-box h3 {
-    font-size: 1rem;
-    background-color:  var(--dark);
-    border: 2px solid var(--light);
-    padding: 5px;
-    box-shadow: 2px 4px 4px 2px  var(--dark);
+.carousel-caption {
+    background-color: rgba(233, 233, 233, 0.863);
+    color: rgb(19, 19, 19);
 }
 
 /* This begins my contact section */
@@ -245,7 +173,6 @@ footer > div {
 
     article > h2 {
         border-right: none;
-        border-bottom: 4px solid var(--primary);
         margin-bottom: 20px;
         padding-bottom: 10px;
         text-align: left;
@@ -259,7 +186,7 @@ footer > div {
 
     footer > h2 {
         border-right: none;
-        border-bottom: 4px solid var(--primary);
+        
         margin-bottom: 20px;
         padding-bottom: 10px;
         text-align: left;
@@ -268,30 +195,8 @@ footer > div {
 }
 
 @media screen and (max-width: 768px) {
-    .nav-container {
-        justify-content: center;
-    }
-
-    .id-card {
-        justify-content: center;
-        margin-left: 0%;
-    }
-
-    .card h1 {
-        font-size: 1.5rem;
-    }
-
     article > h2 {
         font-size: 1.5rem;
-    }
-
-    .flex-box,
-    .flex-box:first-child {
-        flex-basis: 100%;
-    }
-
-    .flex-box:first-child {
-        min-height: 150px;
     }
 
     .contact address {
