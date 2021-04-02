@@ -1,22 +1,19 @@
-body {
-    margin: 0;
-    padding: 0;
+body {    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 1.5;
+    font-size: 1.5rem;
     background-image: url("https://dl3.pushbulletusercontent.com/cZBHYFT56nLLZIontSXBKhKqi7hbNnBT/background.png");
     background-size: 100%;
     background-attachment: fixed;
 }
 
-p {
-    margin: 0;
-    font-size: 1.5rem;
+nav {
+    margin-right: 0% !important;
 }
 
 /* This is my navbar */
 .nav-link, .navbar-brand {
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
 
 .photo-of-me {
@@ -25,8 +22,7 @@ p {
     border-radius: 50px;
 }
 
-/* This is my photo and text */
-
+/* jumbotron styling */
 .jumbotron {
     min-height: 100vh;
 }
@@ -39,16 +35,8 @@ p {
     opacity: 0.5;
 }
 
-.no-opacity {
-    opacity: 10;
-}
-
 /* This is my main section */
-
-main {
-    
-    margin-left: auto;
-    margin-right: auto;
+main {    
     border-top: 4px solid;
     color: rgba(233, 233, 233, 0.863);
   }
@@ -75,79 +63,34 @@ main {
     color: rgb(19, 19, 19);
 }
 
-/* This begins my contact section */
-
-/* footer {
-    margin: 25px 0;
-    padding: 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-}
-
-footer > h2 {
-    flex: 0 0 20%;
-    text-align: right;
-    padding-right: 15px;
-    font-size: 2rem;
-    line-height: 1.1;
-    color: rgba(233, 233, 233, 0.863);
-}
-
-footer > div {
-    flex: 0 0 77%;
-}
-
-.contact {
-    border-top: 4px solid;
-}
-
-.contact address {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
+@media only screen and (max-width: 992px) {
+    .photo-of-me {
+        margin-left: 20%;
     }
-
-.contact address a {
-    color: rgba(233, 233, 233, 0.863);
-    padding: 5px;
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-style: normal;
-    transition: all 0.25s ease-in;
-    margin: 0 0.2rem 0.1rem;
-    display: inline-block;
 }
 
-.contact address a:hover {
-    background-size: 100% 88%;
-    text-decoration: underline;
-} */
-
-
-/* @media screen and (max-width: 980px) {
-    footer > h2,
-    footer > div {
-        flex: 0 0 100%;
+@media only screen and (max-width: 768px) {
+    .photo-of-me {
+        margin-left: 20%;
     }
+}
 
-    footer > h2 {
-        border-right: none;
-        
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-        text-align: left;
+@media only screen and (max-width: 576px) {
+    .carousel-caption {
         font-size: 1rem;
     }
+
+    .my-section {
+        font-size: 1.2rem;
+    }
 }
 
-@media screen and (max-width: 768px) {
-    .contact address {
-        flex-direction: column;
-        align-items: flex-start;
+@media only screen and (max-width: 394px) {
+    .carousel-caption {
+        font-size: .8rem;
     }
-} */
+
+    .photo-of-me {
+        margin-left: 15%;
+    }
+}
