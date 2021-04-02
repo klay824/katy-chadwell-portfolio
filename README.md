@@ -1,12 +1,29 @@
-<strong>Katy Chadwell Portfolio</strong>
+# Katy Chadwell Portfolio
 
 This is my professional portfolio repository.
 
-I have created an html file that contains the markup for the page. I created a variables.css file to store color variables. I have also created a css file that adds styling though a background image, a flexbox for a navbar, ID section, work, resume, and contact section. The resume links to a placeholder at this time. It will eventually hold my actual resume. Each flexbox resizes for device responsiveness. The links in the navbar scrolls to the corresponding section of the page when clicked. I added an image and link to the first week's homework as my main project, and photos and links for four in-class activities as fillers until I make more of my own projects throughout this class.  In the contact section, I have provided links for my phone number, email, GitHub, LinkedIn, and Twitter. 
+When the user visits my page, they will see a navbar at the top that contains my name, links to the About Me and Work sections of the page. Clicking them will jump to those sections. The navbar also contains a link to my downloadable resume. There is also a dropdown menu that contains my phone number, email address, and links to my GitHub, LinkedIn, and Twitter.  The user is then greeted by a jumbotron containing a welcome message that includes the current time updated every 50 seconds as well as a button called "Learn More." Upon clicking that button or scrolling down, the user will see a photo of me as well as a brief biography and skills.
 
-<a href="https://klay824.github.io/katy-chadwell-portfolio/">My deployed application.</a>
+The user may continue to scroll and will see a carousel of my recent works. The recent works are *Ron's Grub Hub*, *Weather Dashboard*, and *Work Day Scheduler*. The carousel will cycle through these projects unless the user is hovering on the carousel, then it will pause. The user may also cycle through manually by clicking the next or previous arrows. On each carousel image, there is the name of the project, as well as a link to my GitHub repo and deployed application for each project.
 
-<strong>Deployed Portfolio Screenshot</strong>
-<img src="assets/images/portfolio-screenshot.png">
+At the bottom of the page, there is a footer that contains my phone numnber, email address, and links to my GitHub, LinkedIn, and Twitter.
 
+Please follow [this link](https://klay824.github.io/katy-chadwell-portfolio/) to view the live application.
 
+## Technology Used
+* HTML
+* CSS
+* Bootstrap 4
+* JavaScript
+* Jquery
+* Moment.js
+
+## Resources
+* [moment.js Documentation](https://momentjs.com/)
+* [Bootstrap 4 Documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+
+## Video Demonstration
+![](assets/gif/deployed-demo.gif)
+
+## Screenshot
+![](assets/images/screenshot-1.png)
