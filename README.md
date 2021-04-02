@@ -15,7 +15,7 @@ Please follow [this link](https://klay824.github.io/katy-chadwell-portfolio/) to
 * CSS
 * Bootstrap 4
 * JavaScript
-* Jquery
+* JQuery
 * Moment.js
 
 ## Resources
