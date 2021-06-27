@@ -2,16 +2,23 @@ import React from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import About from "./Components/Pages/About";
+import Footer from "./Components/Footer";
+import "./style.css";
 
 
 function App() {
   return (
-    <Router>
-      <div>
+    <div>
+      <Router>
+
         <Header />
-        <Route exact path="/about" component={About} />
-      </div>
-    </Router>
+        <main>
+          <Route exact path="/about" component={About} />
+
+        </main>
+        <Footer />
+      </Router>
+    </div>
   );
 }
 
