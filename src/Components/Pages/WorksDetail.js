@@ -1,29 +1,27 @@
 import React from "react";
 import works from "../../works.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from "react-bootstrap";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 
 function WorksDetail() {
     console.log(works);
     return (
-        <div className="pt-1 mb-3 pb-5">
-            <h2 class="mt-5 text-center">Check Out Some Of My Work</h2>
-            <Carousel>
-                {works.map(work => (
-                    <Carousel.Item key={work.id}>
-                        <img
-                            className="testimonialImages d-block p-5 w-75 img-fluid rounded"
-                            src={work.img}
-                            alt={work.alt}
-                        />
-                        <Carousel.Caption>
-                            <h3>{work.title}</h3>
-                            <p>{work.description}</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                ))}
-            </Carousel>
-        </div>
+        <div className="container pt-5">
+            <div className="row justify-content-center">
+                <h4 className="col-6">Check Out Some of My Work</h4>
+                <Carousel className="col-12">
+                    {works.map(work => (
+                        <>
+                            <div>
+                                <img src={work.img} />
+                                <h4 className="legend">{work.title}</h4>
+                            </div>
+                        </>
+                    ))}
+                </Carousel>
+            </div>
+        </div >
     );
 }
 
