@@ -49,30 +49,9 @@ h2 {
   border-width: 4px !important;
 }
 
-/* Changes carousel indicator color */
-.carousel-indicators {
-  filter: invert(100%);
-}
-
-.carousel-control-prev-icon {
-  filter: invert(100%);
-}
-
-.carousel-control-next {
-  filter: invert(100%);
-}
-
-.carousel-caption {
-  background-color: rgba(233, 233, 233, 0.863);
-  color: rgb(19, 19, 19);
-}
-
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
+/* .slide-detail {
+  background-color: rgba(175, 173, 169, 0.637);
+} */
 
 @media only screen and (max-width: 992px) {
   .photo-of-me {
@@ -87,20 +66,12 @@ footer {
 }
 
 @media only screen and (max-width: 576px) {
-  .carousel-caption {
-    font-size: 1rem;
-  }
-
   .my-section {
     font-size: 1.2rem;
   }
 }
 
 @media only screen and (max-width: 394px) {
-  .carousel-caption {
-    font-size: 0.8rem;
-  }
-
   .photo-of-me {
     margin-left: 15%;
   }
