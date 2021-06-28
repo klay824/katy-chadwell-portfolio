@@ -14,7 +14,7 @@ function WorksDetail() {
                     {works.map(work => (
                         <>
                             <div>
-                                <img src={work.img} />
+                                <img src={work.img} alt={work.alt} />
                                 <h4 className="legend">{work.title}</h4>
                             </div>
                         </>
