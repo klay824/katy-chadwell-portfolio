@@ -3,7 +3,6 @@ import { HashRouter as Router, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import About from "./Components/Pages/About";
 import Works from "./Components/Works";
-import WorksDetail from "./Components/Pages/WorksDetail";
 import Footer from "./Components/Footer";
 import "./style.css";
 
