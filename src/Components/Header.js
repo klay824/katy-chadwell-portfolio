@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, Route, useLocation } from "react-router-dom";
 
 
 function Header() {
@@ -32,6 +32,7 @@ function Header() {
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a className="dropdown-item" href="tel:+9729778103" target="_blank" rel="noreferrer">972-977-8103</a>
                             <a className="dropdown-item" href="mailto:kchadwell0226@gmail.com" target="_blank" rel="noreferrer">kchadwell0226@gmail.com</a>
+                            <Link to="https://github.com/klay824" target="_blank" rel="noreferrer">GitHub</Link>
                             <a className="dropdown-item" href="https://github.com/klay824" target="_blank" rel="noreferrer">GitHub</a>
                             <a className="dropdown-item" href="https://www.linkedin.com/in/katy-chadwell" target="_blank" rel="noreferrer">LinkedIn</a>
                             <a className="dropdown-item" href="https://twitter.com/klay1986" target="_blank" rel="noreferrer">Twitter</a>
