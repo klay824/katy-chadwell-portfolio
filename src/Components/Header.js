@@ -6,7 +6,7 @@ function Header() {
 
     return (
         <Navbar className="p-2" bg="light" expand="lg">
-            <Navbar.Brand href="#home">Katy Chadwell</Navbar.Brand>
+            <Navbar.Brand href="#">Katy Chadwell</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
