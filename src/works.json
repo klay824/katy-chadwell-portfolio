@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Ron's Grub Hub",
-        "description": "A fun restaurant locator based off the character Ron Swanson from Parks & Recreation. It was made with HTML, CSS, Materialize CSS, JavaScript, JQuery, and third-party APIs Leaflet and FourSquare.",
+        "description": "A fun restaurant locator based off the character Ron Swanson from Parks & Recreation.",
         "repo": "https://github.com/klay824/project-1",
         "deployed": "https://klay824.github.io/project-1/",
         "img": "./assets/images/rons-grub-hub.png",
@@ -11,7 +11,7 @@
     {
         "id": 2,
         "title": "Tech Blog",
-        "description": "A full-stack blogging application that allows the user to create, edit, and delete blog posts, as well as comment on posts. It uses user authentication to deny access to certain parts of the site when the user is not signed in. It was made with HTML, CSS, Bootstrap, JavaScript, Node.JS, Express.js, MySQL, and Sequelize.",
+        "description": "A full-stack blogging application that allows the user to create, edit, and delete blog posts, as well as comment on posts.",
         "repo": "https://github.com/klay824/tech-blog",
         "deployed": "https://intense-bayou-51128.herokuapp.com/",
         "img": "./assets/images/tech-blog.png",
@@ -20,7 +20,7 @@
     {
         "id": 3,
         "title": "The Ultimate Movie List",
-        "description": "A personal movie database that allows a user to create an account in order to store a list of movies they want to watch to make a quick selection on movie night. Once the user has watched the movie, they can mark it watched to keep track. It was made with HTML, CSS, JavaScript, Node.js, Express.js, MySql, and Sequelize.",
+        "description": "A personal movie database that allows authenticated users store a list of movies they want to watch to make a quick selection on movie night.",
         "repo": "https://github.com/klay824/the-ultimate-movie-list",
         "deployed": "https://glacial-hollows-98883.herokuapp.com/",
         "img": "./assets/images/ultimate-movie.png",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "title": "Note-Taker App",
-        "description": "A note-taking app that allows the user to create a list of notes for themselves throughout the day. They can edit and delete notes once they are done with the thought or task. This was made using Node.js, Express.js, and the UUID NPM package.",
+        "description": "A note-taking app that allows the user to create a list of notes for themselves throughout the day.",
         "repo": "https://github.com/klay824/note-taker",
         "deployed": "https://klay824-note-taker.herokuapp.com/",
         "img": "./assets/images/note-taker.png",

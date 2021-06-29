@@ -62,11 +62,11 @@ h2 {
   text-align: center;
   opacity: 0.6;
   transition: opacity 0.35s ease-in-out;
-  font-size: 0.9rem;
+  font-size: 0.93rem;
 }
 
 a {
-  color: rgb(85, 84, 84);
+  color: rgb(56, 56, 56);
   padding: 3px;
 }
 
@@ -94,19 +94,11 @@ a:hover {
   .photo-of-me {
     margin-left: 20%;
   }
-
-  .slide-text {
-    font-size: 0.5rem;
-  }
 }
 
 @media only screen and (max-width: 768px) {
   .photo-of-me {
     margin-left: 20%;
-  }
-
-  .slide-text {
-    font-size: 0.5rem;
   }
 }
 
@@ -114,18 +106,10 @@ a:hover {
   .my-section {
     font-size: 1.2rem;
   }
-
-  .slide-text {
-    font-size: 0.5rem;
-  }
 }
 
 @media only screen and (max-width: 375px) {
   .photo-of-me {
     margin-left: 15%;
-  }
-
-  .slide-text {
-    font-size: 0.1rem;
   }
 }
