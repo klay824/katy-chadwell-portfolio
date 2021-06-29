@@ -52,18 +52,17 @@ h2 {
 .carousel .slide .slide-text {
   transition: all 0.5s ease-in-out;
   position: absolute;
-  bottom: 40px;
+  bottom: 5%;
   left: 50%;
   margin-left: -45%;
   width: 90%;
   border-radius: 10px;
   background: rgb(212, 212, 212);
   color: rgb(0, 0, 0);
-  padding: 10px;
-  font-size: 20px;
   text-align: center;
   opacity: 0.6;
   transition: opacity 0.35s ease-in-out;
+  font-size: 0.9rem;
 }
 
 a {
@@ -75,7 +74,7 @@ a:hover {
   color: black;
 }
 
-footer {
+.footer {
   background-color: white;
   position: absolute;
   bottom: 0;
@@ -83,21 +82,21 @@ footer {
   height: 2.5rem;
 }
 
-.nav-link {
-  padding: 0;
-}
-
 .link {
-  color: black;
+  color: rgb(146, 143, 143);
 }
 
 .link:hover {
-  color: rgb(51, 51, 51);
+  color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width: 992px) {
   .photo-of-me {
     margin-left: 20%;
+  }
+
+  .slide-text {
+    font-size: 0.5rem;
   }
 }
 
@@ -105,16 +104,28 @@ footer {
   .photo-of-me {
     margin-left: 20%;
   }
+
+  .slide-text {
+    font-size: 0.5rem;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .my-section {
     font-size: 1.2rem;
   }
+
+  .slide-text {
+    font-size: 0.5rem;
+  }
 }
 
-@media only screen and (max-width: 394px) {
+@media only screen and (max-width: 375px) {
   .photo-of-me {
     margin-left: 15%;
+  }
+
+  .slide-text {
+    font-size: 0.1rem;
   }
 }
