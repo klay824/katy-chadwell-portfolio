@@ -15,7 +15,12 @@ function WorksDetail() {
                         <>
                             <div>
                                 <img src={work.img} alt={work.alt} />
-                                <h4 className="legend">{work.title}</h4>
+                                <div className="slide-text">
+                                    <h4>{work.title}</h4>
+                                    <a href={work.deployed}>View Deployed</a><a href={work.repo}>View Repository</a>
+                                    <h5>{work.description}</h5>
+                                </div>
+
                             </div>
                         </>
                     ))}
