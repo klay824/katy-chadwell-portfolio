@@ -1,30 +1,28 @@
 import React from "react";
-import { Link, Route, useLocation } from "react-router-dom";
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 
 function Header() {
 
-    const location = useLocation();
-
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar className="p-2" bg="light" expand="lg">
             <Navbar.Brand href="#home">Katy Chadwell</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#link">Link</Nav.Link>
-                    <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                        <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#work">Work</Nav.Link>
+                    <NavDropdown title="Contact" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="tel:+9729778103" target="_blank">972-977-8103</NavDropdown.Item>
+                        <NavDropdown.Item href="mailto:kchadwell0226@gmail.com" target="_blank">kchadwell0226@gmail.com</NavDropdown.Item>
+                        <NavDropdown.Item href="https://github.com/klay824" target="_blank">GitHub</NavDropdown.Item>
+                        <NavDropdown.Item href="https://www.linkedin.com/in/katy-chadwell" target="_blank">LinkedIn</NavDropdown.Item>
+                        <NavDropdown.Item href="https://twitter.com/klay1986" target="_blank">Twitter</NavDropdown.Item>
+
                     </NavDropdown>
                 </Nav>
             </Navbar.Collapse>
-        </Navbar>
+        </Navbar >
     );
 }
 
