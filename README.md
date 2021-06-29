@@ -2,32 +2,34 @@
 
 This is my professional portfolio repository.
 
-When the user visits my page, they will see a navbar at the top that contains my name, links to the About Me and Work sections of the page. Clicking them will jump to those sections. The navbar also contains a link to my downloadable resume. There is also a dropdown menu that contains my phone number, email address, and links to my GitHub, LinkedIn, and Twitter. The user is then greeted by a jumbotron containing a welcome message that includes the current time updated every 60 seconds as well as a button called "Learn More." Upon clicking that button or scrolling down, the user will see a photo of me as well as a brief biography and skills.
+When the user visits my page, they will see a navbar at the top that contains my name, links to the About Me and Work sections of the page. Clicking them will route to those pages. The navbar also contains a link to my downloadable resume. There is also a dropdown menu that contains my phone number, email address, and links to my GitHub, LinkedIn, and Twitter. The user is then greeted by a jumbotron containing a welcome message that includes the current time as well as a button called "Learn More."
 
-The user may continue to scroll and will see a carousel of my recent works. The recent works are _Ron's Grub Hub_, _Tech-Blog_, _The Ultimate Movie List_ and _Note-Taker App_. The carousel will cycle through these projects unless the user is hovering on the carousel, then it will pause. The user may also cycle through manually by clicking the next or previous arrows. On each carousel image, there is the name of the project, as well as a link to my GitHub repo and deployed application for each project.
+Upon clicking that button or of clicking _About_ in the Navbar will take the user to my About page that includes a photo as well as a brief biography. Clicking _Work_ in the Navbar will take the user to the Works page where they will find a carousel of some of my works. Each slide contains a photo, as well as links to the deployment and repository, and a brief description.
 
-At the bottom of the page, there is a footer that contains my phone number, email address, and links to my GitHub, LinkedIn, and Twitter.
+Finally, at the bottom of the page the user will find the footer which contains links to my phone number, email, GitHub and LinkedIn.
 
 Please follow [this link](https://klay824.github.io/katy-chadwell-portfolio/) to view the live application.
 
 ## Technology Used
 
-- HTML
+- React.js
+- React Bootstrap
+- React-Responsive-Carousel
+- HashRouter
+- Bootstrap
 - CSS
-- Bootstrap 4
-- JavaScript
-- JQuery
-- Moment.js
 
 ## Resources
 
-- [moment.js Documentation](https://momentjs.com/)
-- [Bootstrap 4 Documentation](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [React.js Documentation](https://reactjs.org/)
+- [React-Bootstrap Documentation](https://react-bootstrap.github.io/)
+- [React-Responsive-Carousel Documentation](http://react-responsive-carousel.js.org/)
+- [How to Map a Carousel](https://stackoverflow.com/questions/67185790/how-to-pass-react-bootstrap-carousel-items-to-a-map-function)
+- [Keep That Damn Footer at the Bottom](https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551)
+- [Displaying An Updating Time in React](https://medium.com/create-a-clocking-in-system-on-react/create-a-react-app-displaying-the-current-date-and-time-using-hooks-21d946971556)
 
-## Video Demonstration
+## Screenshots
 
-![](assets/gif/deployed-demo.gif)
-
-## Screenshot
-
-![](assets/images/screenshot-1.png)
+![](home-screenshot.png)
+![](about-screenshot.png)
+![](work-screenshot.png)
