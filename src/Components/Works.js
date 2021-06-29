@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import WorksDetail from "../Components/Pages/WorksDetail";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
