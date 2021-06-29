@@ -16,7 +16,7 @@ function WorksDetail() {
                                 <img src={work.img} alt={work.alt} />
                                 <div className="slide-text">
                                     <p>{work.title}</p>
-                                    <a href={work.deployed}>View Deployed</a><a href={work.repo}>View Repository</a>
+                                    <a href={work.deployed} target="_blank" rel="noreferrer">View Deployed</a><a href={work.repo} target="_blank" rel="noreferrer">View Repository</a>
                                     <p>{work.description}</p>
                                 </div>
                             </div>

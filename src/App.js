@@ -14,14 +14,14 @@ function App() {
     <div>
       <Router>
 
-        <Header />
-        <main>
+        <main className="main-container">
+          <Header />
           <Route exact path="/" component={Jumbotron} />
           <Route exact path="/about" component={About} />
           <Route exact path="/work" component={Works} />
 
+          <Footer />
         </main>
-        <Footer />
       </Router>
     </div>
   );
