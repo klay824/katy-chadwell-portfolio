@@ -1,11 +1,12 @@
 import React from "react";
+import me from "../../assets/images/me-small.png"
 
 function About() {
     return (
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-12 col-md-6 col-lg-6">
-                    <img className="photo-of-me img-fluid" alt="me" src="https://i.ibb.co/njk3xnG/IMG-0432-small.png"></img>
+                    <img className="photo-of-me img-fluid" alt="me" src={me}></img>
                 </div>
                 <div className="about-div col-12 col-md-6 col-lg-6">
                     <h2 className="text-center">About Me</h2>
