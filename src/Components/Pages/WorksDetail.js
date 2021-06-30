@@ -1,5 +1,5 @@
 import React from "react";
-import works from "../../works.json";
+import works from "../../utils/workcollection";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
