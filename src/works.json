@@ -5,35 +5,61 @@
         "description": "A fun restaurant locator based off the character Ron Swanson from Parks & Recreation.",
         "repo": "https://github.com/klay824/project-1",
         "deployed": "https://klay824.github.io/project-1/",
-        "img": "./assets/images/rons-grub-hub.png",
+        "img": "https://i.ibb.co/6YqY40j/rons-grub-hub.png",
         "alt": "Ron's Grub Hub"
     },
     {
         "id": 2,
+        "title": "Employee Directory",
+        "description": "A React app that allows users to view, search, and filter their employees.",
+        "repo": "https://github.com/klay824/employee-directory",
+        "deployed": "https://klay824.github.io/employee-directory/",
+        "img": "https://i.ibb.co/bX7w77S/employee-directory.png",
+        "alt": "Employee Directory"
+    },
+    {
+        "id": 3,
+        "title": "Budget Tracker",
+        "description": "A full stack application that allows users to enter deposits and expenses both online and offline.",
+        "repo": "https://github.com/klay824/budget-tracker",
+        "deployed": "https://enigmatic-citadel-00070.herokuapp.com/",
+        "img": "https://i.ibb.co/NTMstGc/budget-tracker.png",
+        "alt": "Budget Tracker"
+    },
+    {
+        "id": 4,
+        "title": "Fitness Tracker",
+        "description": "A full-stack blogging application that allows the user to create, edit, and delete blog posts, as well as comment on posts.",
+        "repo": "https://github.com/klay824/fitness-tracker",
+        "deployed": "https://aqueous-forest-70014.herokuapp.com/",
+        "img": "https://i.ibb.co/twftKT9/fitness-tracker-1.png",
+        "alt": "Fitness Tracker"
+    },
+    {
+        "id": 5,
         "title": "Tech Blog",
         "description": "A full-stack blogging application that allows the user to create, edit, and delete blog posts, as well as comment on posts.",
         "repo": "https://github.com/klay824/tech-blog",
         "deployed": "https://intense-bayou-51128.herokuapp.com/",
-        "img": "./assets/images/tech-blog.png",
+        "img": "https://i.ibb.co/2qvx6qV/tech-blog.png",
         "alt": "Tech Blog"
     },
     {
-        "id": 3,
+        "id": 6,
         "title": "The Ultimate Movie List",
         "description": "A personal movie database that allows authenticated users store a list of movies they want to watch to make a quick selection on movie night.",
         "repo": "https://github.com/klay824/the-ultimate-movie-list",
         "deployed": "https://glacial-hollows-98883.herokuapp.com/",
-        "img": "./assets/images/ultimate-movie.png",
+        "img": "https://i.ibb.co/8dftMcv/ultimate-movie.png",
         "alt": "Ultimate Movie List"
     },
     {
-        "id": 4,
+        "id": 7,
         "title": "Note-Taker App",
         "description": "A note-taking app that allows the user to create a list of notes for themselves throughout the day.",
         "repo": "https://github.com/klay824/note-taker",
         "deployed": "https://klay824-note-taker.herokuapp.com/",
-        "img": "./assets/images/note-taker.png",
+        "img": "https://i.ibb.co/G31G9Zr/note-taker.png",
         "alt": "Note-Take App"
     }
-
 ]

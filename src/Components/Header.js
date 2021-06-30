@@ -12,6 +12,7 @@ function Header() {
                 <Nav className="mr-auto">
                     <Nav.Link href="#about">About</Nav.Link>
                     <Nav.Link href="#work">Work</Nav.Link>
+                    <Nav.Link href="https://docs.google.com/document/d/1BDrVlpSrayWDSNwVCkzXPld3FVRpqqwCfMeo9evK6kw/edit?usp=sharing" target="_blank">Resume</Nav.Link>
                     <NavDropdown title="Contact" id="basic-nav-dropdown">
                         <NavDropdown.Item href="tel:+9729778103" target="_blank">972-977-8103</NavDropdown.Item>
                         <NavDropdown.Item href="mailto:kchadwell0226@gmail.com" target="_blank">kchadwell0226@gmail.com</NavDropdown.Item>
