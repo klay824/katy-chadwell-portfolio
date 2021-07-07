@@ -1,7 +1,6 @@
 import ron from "../assets/images/rons-grub-hub.png";
 import emp from "../assets/images/employee-directory.png";
 import budget from "../assets/images/budget-tracker.png";
-import fitness from "../assets/images/fitness-tracker-1.png";
 import books from "../assets/images/google-books-search.png";
 import movie from "../assets/images/ultimate-movie.png";
 
@@ -44,7 +43,7 @@ const works = [
         "alt": "Fitness Tracker"
     },
     {
-        "id": 6,
+        "id": 5,
         "title": "The Ultimate Movie List",
         "description": "A personal movie database. Built with Node, Express, MySQL.",
         "repo": "https://github.com/klay824/the-ultimate-movie-list",
