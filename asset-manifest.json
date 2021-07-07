@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/katy-chadwell-portfolio/static/css/main.8e2d45d3.chunk.css",
-    "main.js": "/katy-chadwell-portfolio/static/js/main.9cecc5b3.chunk.js",
-    "main.js.map": "/katy-chadwell-portfolio/static/js/main.9cecc5b3.chunk.js.map",
+    "main.js": "/katy-chadwell-portfolio/static/js/main.4fa28054.chunk.js",
+    "main.js.map": "/katy-chadwell-portfolio/static/js/main.4fa28054.chunk.js.map",
     "runtime-main.js": "/katy-chadwell-portfolio/static/js/runtime-main.a52768df.js",
     "runtime-main.js.map": "/katy-chadwell-portfolio/static/js/runtime-main.a52768df.js.map",
     "static/css/2.8428340d.chunk.css": "/katy-chadwell-portfolio/static/css/2.8428340d.chunk.css",
@@ -15,10 +15,9 @@
     "static/media/budget-tracker.9106e4d1.png": "/katy-chadwell-portfolio/static/media/budget-tracker.9106e4d1.png",
     "static/media/employee-directory.7f602341.png": "/katy-chadwell-portfolio/static/media/employee-directory.7f602341.png",
     "static/media/fitness-tracker-1.e7fe04af.png": "/katy-chadwell-portfolio/static/media/fitness-tracker-1.e7fe04af.png",
+    "static/media/google-books-search.7527fe3a.png": "/katy-chadwell-portfolio/static/media/google-books-search.7527fe3a.png",
     "static/media/me-small.fbb0404c.png": "/katy-chadwell-portfolio/static/media/me-small.fbb0404c.png",
-    "static/media/note-taker.6ebb4580.png": "/katy-chadwell-portfolio/static/media/note-taker.6ebb4580.png",
     "static/media/rons-grub-hub.1e757494.png": "/katy-chadwell-portfolio/static/media/rons-grub-hub.1e757494.png",
-    "static/media/tech-blog.ce34d000.png": "/katy-chadwell-portfolio/static/media/tech-blog.ce34d000.png",
     "static/media/ultimate-movie.e7cbcdd2.png": "/katy-chadwell-portfolio/static/media/ultimate-movie.e7cbcdd2.png"
   },
   "entrypoints": [
@@ -26,6 +25,6 @@
     "static/css/2.8428340d.chunk.css",
     "static/js/2.d40139c0.chunk.js",
     "static/css/main.8e2d45d3.chunk.css",
-    "static/js/main.9cecc5b3.chunk.js"
+    "static/js/main.4fa28054.chunk.js"
   ]
 }
