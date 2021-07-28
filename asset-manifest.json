@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/katy-chadwell-portfolio/static/css/main.8e2d45d3.chunk.css",
-    "main.js": "/katy-chadwell-portfolio/static/js/main.dec9524b.chunk.js",
-    "main.js.map": "/katy-chadwell-portfolio/static/js/main.dec9524b.chunk.js.map",
+    "main.js": "/katy-chadwell-portfolio/static/js/main.2bccb0a0.chunk.js",
+    "main.js.map": "/katy-chadwell-portfolio/static/js/main.2bccb0a0.chunk.js.map",
     "runtime-main.js": "/katy-chadwell-portfolio/static/js/runtime-main.a52768df.js",
     "runtime-main.js.map": "/katy-chadwell-portfolio/static/js/runtime-main.a52768df.js.map",
     "static/css/2.8428340d.chunk.css": "/katy-chadwell-portfolio/static/css/2.8428340d.chunk.css",
@@ -13,6 +13,7 @@
     "static/css/main.8e2d45d3.chunk.css.map": "/katy-chadwell-portfolio/static/css/main.8e2d45d3.chunk.css.map",
     "static/js/2.d40139c0.chunk.js.LICENSE.txt": "/katy-chadwell-portfolio/static/js/2.d40139c0.chunk.js.LICENSE.txt",
     "static/media/budget-tracker.9106e4d1.png": "/katy-chadwell-portfolio/static/media/budget-tracker.9106e4d1.png",
+    "static/media/diy-solution.a49a1b9f.png": "/katy-chadwell-portfolio/static/media/diy-solution.a49a1b9f.png",
     "static/media/employee-directory.7f602341.png": "/katy-chadwell-portfolio/static/media/employee-directory.7f602341.png",
     "static/media/google-books-search.7527fe3a.png": "/katy-chadwell-portfolio/static/media/google-books-search.7527fe3a.png",
     "static/media/me-small.fbb0404c.png": "/katy-chadwell-portfolio/static/media/me-small.fbb0404c.png",
@@ -24,6 +25,6 @@
     "static/css/2.8428340d.chunk.css",
     "static/js/2.d40139c0.chunk.js",
     "static/css/main.8e2d45d3.chunk.css",
-    "static/js/main.dec9524b.chunk.js"
+    "static/js/main.2bccb0a0.chunk.js"
   ]
 }
