@@ -20,7 +20,7 @@ const works = [
         "id": 2,
         "title": "Ron's Grub Hub",
         "description": "A restaurant locator built using HTML, CSS, JavaScript.",
-        "repo": "https://github.com/klay824/rons-grub-hub",
+        "repo": "https://github.com/klay824/project-1/",
         "deployed": "https://klay824.github.io/project-1/",
         "img": ron,
         "alt": "Ron's Grub Hub"
